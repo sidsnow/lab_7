@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common" />
+        <module name="clientstuff" />
+        <module name="serverstuff" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="clientstuff" target="8" />
+      <module name="com (1) (lab.groupId)" target="8" />
+      <module name="common" target="8" />
+      <module name="lab" target="8" />
+      <module name="serverstuff" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
